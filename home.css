@@ -1,0 +1,114 @@
+h1
+    {
+        font-family: "Lucida Handwriting";
+        font-style: italic;
+        color:rgb(0, 255, 64);
+        text-align: center;
+        font-size: 5vmin;
+        padding-top: 3vmin; 
+    }
+
+    body
+    {
+        background-color:rgba(58, 190, 180, 0.932);
+        background-image: url("homeback.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+/* 
+    .box1
+    {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    } */
+
+    .box2
+    {
+        align-self: center;
+        width: 30%; 
+        height: 40vmin;
+        color: aqua;
+        background-color: rgb(0, 255, 255);
+        border-radius: .5vmin;
+    }
+
+    .camerabutton
+    {
+        width: 100%;
+        height: 10vmin;
+        background-color: rgba(58, 190, 180, 0.932);
+        color: rgb(194, 4, 241);
+        font-family: "Lucida Handwriting";
+        font-size: 3vmin;
+        border-color: rgb(0, 255, 255);
+        border-radius: .5vmin;
+    }
+
+    .profilebutton
+    {
+        width: 100%;
+        height: 10vmin;
+        background-color: rgba(58, 190, 180, 0.932);
+        color: rgb(194, 4, 241);
+        font-family: "Lucida Handwriting";
+        font-size: 3vmin;
+        border-color: magenta;
+        border-radius: .5vmin;
+    }
+
+    .gallerybutton
+    {
+        width: 100%;
+        height: 10vmin;
+        background-color: rgba(58, 190, 180, 0.932);
+        color: rgb(194, 4, 241);
+        font-family: "Lucida Handwriting";
+        font-size: 3vmin;
+        border-color: rgb(0, 255, 255);
+        border-radius: .5vmin;
+    }
+
+    .logoutbutton
+    {
+        width: 100%;
+        height: 10vmin;
+        background-color: rgba(58, 190, 180, 0.932);
+        color: rgb(194, 4, 241);
+        font-family: "Lucida Handwriting";
+        font-size: 3vmin;
+        border-color: magenta;
+        border-radius: .5vmin;
+    }
+    /* .cameratoleft
+    {
+        float: left;
+    } */
+
+
+    #sidebar {
+        float: left;
+        width: 19%;
+    }
+
+    #img-bx{
+        text-align: center;
+        float: left;
+        width: 80%;
+    }
+
+    .all-bx {
+        display: block;
+        width: 100%;
+    }
+
+    .uploadbtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    }
